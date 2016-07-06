@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML Home work 6</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="wrapper">
+  <header class="clearfix">
+    <div class="phone">
+      <span>(044)123-45-67 (044)567-89-10</span>
+    </div>
+    <div class="login">
+      <img src="img/ico-autorization.png" alt="icon">
+
+      <form action="#" class="login-form">
+        <input type="text" placeholder="логин">
+        <input type="password" placeholder="пароль">
+        <input type="submit" value="вход">
+      </form>
+      <span class="login-separate">&nbsp;|&nbsp;</span>
+      <a href="#" class="registration">регистрация</a>
+      <a href="#" class="forgot-pass">забыли пароль?</a>
+    </div>
+    <div class="header-links">
+      <a href="#">
+        <img src="img/ico-home.png" alt="">
+      </a>
+      <a href="#">
+        <img src="img/ico-map.png" alt="">
+      </a>
+      <a href="#">
+        <img src="img/ico-mail.png" alt="">
+      </a>
+    </div>
+  </header>
+  <div class="logo-image">
+    <a href="#"></a>
+  </div>
+  <nav class="clearfix">
+    <ul class="head-menu">
+      <li><a href="#">о компании</a></li>
+      <li><a href="#">оплата</a></li>
+      <li><a href="#">доставка</a></li>
+      <li><a href="#">статьи</a></li>
+      <li><a href="#">контакты</a></li>
+    </ul>
+    <div class="basket">
+      <span class="basket-string">товаров:</span>
+      <span class="basket-num">0</span>
+      <span class="basket-string">на сумму:</span>
+      <span class="basket-num">0,00 грн.</span>
+    </div>
+  </nav>
+  <section class="search">
+    <!--Search form by car-->
+    <form action="#" class="search-car">
+      <p>Поиск по автомобилю</p>
+      <fieldset>
+        <legent>Диски:</legent>
+        <div>
+          <label for="brand">
+            <span class="big-text">Марка</span>
+            <span class="small-text">авто:</span>
+          </label>
+          <select name="brand" size="1" id="brand">
+            <option value="brand1">Марка1</option>
+            <option value="brand2">Марка2</option>
+            <option value="brand3">Марка3</option>
+          </select>
+        </div>
+        <div>
+          <label for="model">
+            <span class="big-text">Марка</span>
+            <span class="small-text">автомобиля:</span>
+          </label>
+          <select name="model" size="1" id="model">
+            <option value="model1">Модель1</option>
+            <option value="model2">Модель2</option>
+            <option value="model3">Модель3</option>
+          </select>
+        </div>
+        <div>
+          <label for="year">
+            <span class="big-text">Год выпуска</span>
+            <span class="small-text">автомобиля:</span>
+          </label>
+          <select name="year" size="1" id="year">
+            <option value="2010">2010</option>
+            <option value="2011">2011</option>
+            <option value="2012">2012</option>
+          </select>
+        </div>
+        <div>
+          <label for="complect">
+            <span class="big-text">Комплектация:</span>
+          </label>
+          <select name="complect" size="1" id="complect">
+            <option value="complect1">Комплектация1</option>
+            <option value="complect2">Комплектация2</option>
+            <option value="complect3">Комплектация3</option>
+          </select>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legent>Шины:</legent>
+        <div>
+          <label for="brand-t">
+            <span class="big-text">Марка</span>
+            <span class="small-text">авто:</span>
+          </label>
+          <select name="brand-t" size="1" id="brand-t">
+            <option value="brand-t1">Марка1</option>
+            <option value="brand-t2">Марка2</option>
+            <option value="brand-t3">Марка3</option>
+          </select>
+        </div>
+        <div>
+          <label for="model-t">
+            <span class="big-text">Марка</span>
+            <span class="small-text">автомобиля:</span>
+          </label>
+          <select name="model" size="1" id="model-t">
+            <option value="model-t1">Модель1</option>
+            <option value="model-t2">Модель2</option>
+            <option value="model-t3">Модель3</option>
+          </select>
+        </div>
+        <div>
+          <label for="year-t">
+            <span class="big-text">Год выпуска</span>
+            <span class="small-text">автомобиля:</span>
+          </label>
+          <select name="year-t" size="1" id="year-t">
+            <option value="2010">2010</option>
+            <option value="2011">2011</option>
+            <option value="2012">2012</option>
+          </select>
+        </div>
+        <div>
+          <label for="complect-t">
+            <span class="big-text">Комплектация:</span>
+          </label>
+          <select name="complect-t" size="1" id="complect-t">
+            <option value="complect-t1">Комплектация1</option>
+            <option value="complect-t2">Комплектация2</option>
+            <option value="complect-t3">Комплектация3</option>
+          </select>
+        </div>
+        <input class="search-btn" type="submit">
+      </fieldset>
+    </form>
+    <!--Search form by tire-->
+    <form action="#" class="search-tire">
+      <p>Поиск шин</p>
+      <fieldset>
+        <div>
+          <label for="size">
+            <span class="big-text">Размер:</span>
+          </label>
+
+          <select name="size1" size="1" id="size">
+            <option value="165">165</option>
+            <option value="170">170</option>
+            <option value="175">175</option>
+          </select>
+            <span>/</span>
+            <select name="size2" size="1" >
+            <option value="55">55</option>
+            <option value="60">60</option>
+            <option value="65">65</option>
+          </select>
+
+        </div>
+        <div>
+          <label for="radius">
+            <span class="big-text">Марка</span>
+            <span class="small-text">автомобиля:</span>
+          </label>
+          <select name="radius" size="1" id="radius">
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+          </select>
+        </div>
+
+      </fieldset>
+      <fieldset>
+        <legent>Шины:</legent>
+        <div>
+          <label for="brand">
+            <span class="big-text">Марка</span>
+            <span class="small-text">авто:</span>
+          </label>
+          <select name="brand" size="1" id="brand">
+            <option value="brand1">Марка1</option>
+            <option value="brand2">Марка2</option>
+            <option value="brand3">Марка3</option>
+          </select>
+        </div>
+        <div>
+          <label for="model">
+            <span class="big-text">Марка</span>
+            <span class="small-text">автомобиля:</span>
+          </label>
+          <select name="model" size="1" id="model">
+            <option value="model1">Модель1</option>
+            <option value="model2">Модель2</option>
+            <option value="model3">Модель3</option>
+          </select>
+        </div>
+        <div>
+          <label for="year">
+            <span class="big-text">Год выпуска</span>
+            <span class="small-text">автомобиля:</span>
+          </label>
+          <select name="year" size="1" id="year">
+            <option value="2010">2010</option>
+            <option value="2011">2011</option>
+            <option value="2012">2012</option>
+          </select>
+        </div>
+        <div>
+          <label for="complect">
+            <span class="big-text">Комплектация:</span>
+          </label>
+          <select name="complect" size="1" id="complect">
+            <option value="complect1">Комплектация1</option>
+            <option value="complect2">Комплектация2</option>
+            <option value="complect3">Комплектация3</option>
+          </select>
+        </div>
+        <input class="search-btn" type="submit">
+      </fieldset>
+    </form>
+  </section>
+</div>
+</body>
+</html>
