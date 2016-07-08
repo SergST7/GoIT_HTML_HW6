@@ -14,7 +14,6 @@
     </div>
     <div class="login">
       <img src="img/ico-autorization.png" alt="icon">
-
       <form action="#" class="login-form">
         <input type="text" placeholder="логин">
         <input type="password" placeholder="пароль">
@@ -160,24 +159,21 @@
           <label for="size">
             <span class="big-text">Размер:</span>
           </label>
-
           <select name="size1" size="1" id="size">
             <option value="165">165</option>
             <option value="170">170</option>
             <option value="175">175</option>
           </select>
-            <span>/</span>
-            <select name="size2" size="1" >
+          <span>/</span>
+          <select name="size2" size="1">
             <option value="55">55</option>
             <option value="60">60</option>
             <option value="65">65</option>
           </select>
-
         </div>
         <div>
           <label for="radius">
-            <span class="big-text">Марка</span>
-            <span class="small-text">автомобиля:</span>
+            <span>R</span>
           </label>
           <select name="radius" size="1" id="radius">
             <option value="14">14</option>
@@ -185,51 +181,83 @@
             <option value="16">16</option>
           </select>
         </div>
-
+        <span class="big-text">Сезон:</span>
+        <div>
+          <label>
+            <input type="checkbox" name="summer">
+            <span class="big-text">лето</span>
+          </label>
+          <label>
+            <input type="checkbox" name="winter">
+            <span class="big-text">зима</span>
+          </label>
+          <label>
+            <input type="checkbox" name="all-season">
+            <span class="big-text">всесез</span>
+          </label>
+        </div>
+        <input class="search-btn" type="submit">
+      </fieldset>
+    </form>
+    <!--Search form by disk-->
+    <form action="#" class="search-disk">
+      <p>Поиск дисков</p>
+      <fieldset>
+        <div>
+          <label for="disk-diameter">
+            <span class="big-text">Диаметр</span>
+            <span class="small-text">диска:</span>
+          </label>
+          <select name="disk-diameter" size="1" id="disk-diameter">
+            <option value="disk-diameter1">14</option>
+            <option value="disk-diameter2">15</option>
+            <option value="disk-diameter3">16</option>
+          </select>
+        </div>
+        <div>
+          <label for="hole-num">
+            <span class="big-text">Количество</span>
+            <span class="small-text">крепежных отверствий:</span>
+          </label>
+          <select name="hole-num" size="1" id="hole-num">
+            <option value="hole-num1">3</option>
+            <option value="hole-num2">4</option>
+            <option value="hole-num3">5</option>
+          </select>
+        </div>
+        <div>
+          <label for="mounting-diameter">
+            <span class="big-text">Диаметр</span>
+            <span class="small-text">расположения крепежных отверстий:</span>
+          </label>
+          <select name="mounting-diameter" size="1" id="mounting-diameter">
+            <option value="mounting-diameter1">12</option>
+            <option value="mounting-diameter2">13</option>
+            <option value="mounting-diameter3">14</option>
+          </select>
+        </div>
       </fieldset>
       <fieldset>
-        <legent>Шины:</legent>
         <div>
-          <label for="brand">
-            <span class="big-text">Марка</span>
-            <span class="small-text">авто:</span>
+          <label for="central-hole-diameter">
+            <span class="big-text">ДЦО</span>
+            <span class="small-text">(диаметр центрального отверствия):</span>
           </label>
-          <select name="brand" size="1" id="brand">
-            <option value="brand1">Марка1</option>
-            <option value="brand2">Марка2</option>
-            <option value="brand3">Марка3</option>
+          <select name="central-hole-diameter" size="1" id="central-hole-diameter">
+            <option value="central-hole-diameter1">12</option>
+            <option value="central-hole-diameter2">13</option>
+            <option value="central-hole-diameter3">14</option>
           </select>
         </div>
         <div>
-          <label for="model">
-            <span class="big-text">Марка</span>
-            <span class="small-text">автомобиля:</span>
+          <label for="disk-et">
+            <span class="big-text">ЕТ</span>
+            <span class="small-text">вылет диска:</span>
           </label>
-          <select name="model" size="1" id="model">
-            <option value="model1">Модель1</option>
-            <option value="model2">Модель2</option>
-            <option value="model3">Модель3</option>
-          </select>
-        </div>
-        <div>
-          <label for="year">
-            <span class="big-text">Год выпуска</span>
-            <span class="small-text">автомобиля:</span>
-          </label>
-          <select name="year" size="1" id="year">
-            <option value="2010">2010</option>
-            <option value="2011">2011</option>
-            <option value="2012">2012</option>
-          </select>
-        </div>
-        <div>
-          <label for="complect">
-            <span class="big-text">Комплектация:</span>
-          </label>
-          <select name="complect" size="1" id="complect">
-            <option value="complect1">Комплектация1</option>
-            <option value="complect2">Комплектация2</option>
-            <option value="complect3">Комплектация3</option>
+          <select name="disk-et" size="1" id="disk-et">
+            <option value="disk-et1">12</option>
+            <option value="disk-et2">13</option>
+            <option value="disk-et3">14</option>
           </select>
         </div>
         <input class="search-btn" type="submit">
