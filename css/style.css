@@ -2,8 +2,20 @@
     #SECTION-GLOBAL
 ----------------------*/
 
+@font-face {
+  font-family: 'Lucida Sans Unicode';
+  src: url('../fonts/lucida_sans_unicode-webfont.eot');
+  src: url('../fonts/lucida_sans_unicode-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/lucida_sans_unicode-webfont.woff2') format('woff2'),
+  url('../fonts/lucida_sans_unicode-webfont.woff') format('woff'),
+  url('../fonts/lucida_sans_unicode-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 body{
-  font-family: Arial, sans-serif;
+  font-family: "Arial Regular", sans-serif;
 }
 
 a{
@@ -12,7 +24,7 @@ a{
 .wrapper {
   width:912px;
   margin: 0 auto;
-  padding:20px 44px 0;
+  padding: 17px 44px 0;
 }
 
 .clearfix:after {
@@ -35,18 +47,20 @@ select{
 
 .phone{
   /*display: inline-block;*/
-  background: url(../img/ico-phone.png) no-repeat;
-  font-size:18px;
+  background: url(../img/ico-phone.png) no-repeat 8px 9px;
+  font-size:17px;
   color: #5e696d;
-  padding-left:33px;
+  padding: 12px 14px 0px 33px;
+  letter-spacing: 1px;
   float: left;
-  /*height:22px;*/
+  height:19px;
   /*line-height: 26px;*/
 }
 .login{
   display: inline-block;
   width: 495px;
   height: 26px;
+  margin: 4px 0px 0px 0px;
   font-size: 11px;
   -webkit-border-radius: 4px/3px;
   -moz-border-radius: 4px/3px;
@@ -63,9 +77,15 @@ select{
 }
 .login img{
   float: left;
+  padding: 6px 0px 0px 6px;
 }
 .login-form{
+  font-family:"Lucida Sans Unicode";
   float: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding:  4px 0px 0px 6px;
 
 }
 .login-form [type="text"], .login-form [type="password"] {
@@ -77,30 +97,43 @@ background-color: #fff;
   padding: 0 5px;
   font-size: 11px;
 }
+.login-form [type="text"]{
+  margin-right:4px;
+}
 .login-form [type="submit"]{
   background: none;
   border: 0;
   cursor: pointer;
   color: #fff;
   font-size: 11px;
+  padding: 3px 0 0 5px;
 }
+
 .login-separate{
+  display: inline-block;
   color: #fff;
+  padding: 0px 0 0 0px;
 }
 .registration{
   text-decoration: none;
   color: #fff;
+  font-size:11px;
 }
 .forgot-pass{
   color: #bfbfbf;
   text-decoration: underline;
+  padding: 0px 0 0 14px;
 }
 
 .header-links{
   width: 77px;
   height: 22px;
   float: right;
-  text-align: center;
+  margin: 5px 8px 0 0px;
+  padding: 0px 0px 0 7px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
   border: 1px solid #c1c8cb;
   border-radius: 20px;
   position: relative;
@@ -108,14 +141,15 @@ background-color: #fff;
   3px 3px 8px -6px rgba(0, 0, 0, 0.54);
 }
 .header-links a{
-  line-height:22px;
+  line-height:18px;
+  padding: 0px 5px 0 0;
 }
 
 .logo-image{
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  margin-top:20px;
+  margin-top:8px;
   margin-bottom:6px;
   width: 910px;
   height: 237px;
@@ -136,6 +170,10 @@ background-color: #fff;
 nav{
   width: 910px;
   height: 32px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 3px 0px 0px 127px;
   -webkit-border-radius: 5px/3px 3px 2px 2px;
   -moz-border-radius: 5px/3px 3px 2px 2px;
   border-radius: 5px/3px 3px 2px 2px;
@@ -153,7 +191,7 @@ nav{
 }
 
 .head-menu{
-  padding-left: 129px;
+  /*padding-left: 129px;*/
 }
 .head-menu li{
   float: left;;
@@ -165,13 +203,30 @@ nav{
   line-height:26px;
   text-transform: uppercase;
   text-align: center;
-  padding: 0 20px;
   height: 26px;
   -webkit-border-radius: 12px/13px;
   -moz-border-radius: 12px/13px;
   border-radius: 12px/13px;
   background-color: transparent;
 }
+.head-menu li:first-child a{
+  padding: 0 20px;
+}
+.head-menu li:nth-child(2) a{
+  padding: 0 16px;
+}
+.head-menu li:nth-child(3) a{
+  padding: 0 16px;
+}
+.head-menu li:nth-child(4) a{
+  padding: 0 14px;
+}
+.head-menu li:nth-child(5) a{
+  padding: 0 12px;
+}
+
+
+
 .head-menu li:hover a{
   background-image: -webkit-linear-gradient(top, #206988, #114165 59%, #0c3256);
   background-image: -moz-linear-gradient(top, #206988, #114165 59%, #0c3256);
@@ -180,18 +235,30 @@ nav{
   background-image: linear-gradient(to bottom, #206988, #114165 59%, #0c3256);
 }
 .basket{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
   float: right;
-  padding-left: 40px;
+  padding-left: 27px;
+  margin-top:4px;
   background: url("../img/basket.png") no-repeat;
-
 }
 .basket-string{
-  font-size: 11px;
+  display: inline-block;
+  font-size: 12px;
   color: #8a9296;
+  padding: 0px 0px 0px 0px;
+  margin:0px 8px 0px 0px;
 }
 .basket-num{
+  display: inline-block;
   font-size:12px;
   color: #0d5a8f;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 10px 0px 0px;
+}
+.tovar{
+  margin:0px -4px 0px 0px;
 }
 
 /*-------------------------
@@ -219,12 +286,14 @@ form{
 
 
 form.search-car{
+  position: relative;
   display: inline-block;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  padding: 0 15px 0 20px;
-  width: 413px;
+  padding: 0 0px 0 17px;
+  margin:4px 10px 0px 5px;
+  width: 415px;
   height: 133px;
   -webkit-border-radius: 18px 17px 17px 18px/17px;
   -moz-border-radius: 18px 17px 17px 18px/17px;
@@ -237,6 +306,9 @@ form.search-car{
 }
 
 .search-car p{
+  /*position: absolute;*/
+  /*top:0px;*/
+  /*left:0px;*/
   text-align: center;
   font-family:"Arial Black";
 }
@@ -296,9 +368,10 @@ form.search-tire{
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  width: 191px;
-  height: 133px;
+  width: 194px;
+  height: 135px;
   padding: 0 15px;
+  margin: 0px 5px 0px 0px;;
   -webkit-border-radius: 17px/19px;
   -moz-border-radius: 17px/19px;
   border-radius: 17px/19px;
@@ -349,9 +422,10 @@ form.search-disk{
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  width: 266px;
-  height: 133px;
+  width: 268px;
+  height: 134px;
   padding: 0 15px 0 10px;
+  margin:0 0px 0 0px;
   -webkit-border-radius: 14px/18px 18px 17px 17px;
   -moz-border-radius: 14px/18px 18px 17px 17px;
   border-radius: 14px/18px 18px 17px 17px;
@@ -369,51 +443,131 @@ form.search-disk{
     #SECTION-MAIN
 --------------------------*/
 
-.sidebar-left{
+.sidebar-left,
+.sidebar-right{
   display: inline-block;
   vertical-align: top;
   color: #114165;
-
+  font-family:"Lucida Sans Unicode";
 }
+
 .sidebar-left h3,
 .sidebar-right h3{
-  width: 181px;
-  height: 25px;
+  width: 182px;
+  height: 27px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  line-height: 25px;
+  padding: 7px 0px 0px 26px;
+  margin:3px 5px 13px 0px;
   -webkit-border-radius: 12px/12px 12px 13px 13px;
   -moz-border-radius: 12px/12px 12px 13px 13px;
   border-radius: 12px/12px 12px 13px 13px;
-  background: #fff url(../img/ico-menu.png) 0 0 no-repeat;
+  background: #fff url(../img/ico-menu.png) 2px 0px no-repeat;
   -webkit-box-shadow: 2px 3px 3px rgba(150,150,150,.75);
   -moz-box-shadow: 2px 3px 3px rgba(150,150,150,.75);
   box-shadow: 2px 3px 3px rgba(150,150,150,.75);
   border: solid 1px #79878d;
   font-size: 13px;
   text-transform: uppercase;
-  padding-left: 25px;
+}
+
+.sidebar-right h3{
+  padding: 5px 0px 0px 28px;
+  margin: 1px 0px 14px 7px;
+  font-size: 14px;
 }
 
 .sidebar-left h4,
 .sidebar-right h4{
-  width: 148px;
-  height: 26px;
-  line-height: 26px;
+  width: 150px;
+  height: 28px;
+  line-height: 28px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  padding: 0px 0px 0px 29px;
+  margin:0px 0px 6px 2px;
   -webkit-border-radius: 11px/13px;
   -moz-border-radius: 11px/13px;
   border-radius: 11px/13px;
-  background: #fff url(../img/ico-sub-menu.png) 0px 0px no-repeat;
+  background: #fff url(../img/ico-sub-menu.png) 4px 1px no-repeat;
     border: solid 1px #79878d;
   text-transform: uppercase;
   font-size: 14px;
-  padding-left: 26px;
 }
 
+.sidebar-right h4{
+  padding: 0px 0px 0px 29px;
+  margin: 0px 0px 5px 21px;
+  width: 136px;
+}
+.sidebar-left a{
+  display: block;
+  background: url(../img/ico-list.png) no-repeat 6px 1px ;
+  font-size:13px;
+  color: #465961;
+  padding: 0px 0px 0px 18px;
+  margin:0px 0px 13px 30px;
+
+}
+.left-disks{
+  margin:-10px 0px 0px 0px;
+}
+
+.left-bolts{
+  margin:-11px 0px 0px 0px;
+}
+.sidebar-right label{
+  margin: 9px 0px 13px 33px;
+}
+.sidebar-right .disk{
+     margin: 15px 0px 11px 20px;
+}
+
+.sidebar-right label input[type='checkbox']{
+  margin: 0px 0px 0px 0px;
+  width: 8px;
+  height: 8px;
+  background-color: #fff;
+  -webkit-box-shadow: inset 1px 1px 1px rgba(0,0,0,.75);
+  -moz-box-shadow: inset 1px 1px 1px rgba(0,0,0,.75);
+  box-shadow: inset 1px 1px 1px rgba(0,0,0,.75);
+  border: solid 1px #114165;
+}
+.sidebar-right label span{
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 11px;
+}
+
+.sidebar-right-btn{
+  display: inline-block;
+  width: 82px;
+  height: 24px;
+  margin: 8px 0px 0px 30px;
+  padding: 0px 0px 0px 13px;
+  color: #e5e9ea;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  line-height:23px;
+  font-family:Arial;
+  font-size: 11px;
+  text-transform: uppercase;
+  -webkit-border-radius: 10px/11px;
+  -moz-border-radius: 10px/11px;
+  border-radius: 10px/11px;
+  background-color: #000;
+  border: solid 1px #a7abae;
+  -webkit-box-shadow: 2px 3px 3px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 2px 3px 3px 0px rgba(0,0,0,0.5);
+  box-shadow: 2px 3px 3px 0px rgba(0,0,0,0.5);
+  background-image: -webkit-linear-gradient(top, #206988, #114165 59%, #0c3256);
+  background-image: -moz-linear-gradient(top, #206988, #114165 59%, #0c3256);
+  background-image: -o-linear-gradient(top, #206988, #114165 59%, #0c3256);
+  background-image: -ms-linear-gradient(top, #206988, #114165 59%, #0c3256);
+  background-image: linear-gradient(to bottom, #206988, #114165 59%, #0c3256);
+}
 .galery{
   display: inline-block;
   width: 526px;
@@ -421,7 +575,8 @@ form.search-disk{
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  padding: 15px;
+  padding:  14px 0 0 14px;
+  margin: 0px 0px 30px 0px;
   -webkit-border-radius: 3px/2px 2px 3px 3px;
   -moz-border-radius: 3px/2px 2px 3px 3px;
   border-radius: 3px/2px 2px 3px 3px;
@@ -434,17 +589,55 @@ form.search-disk{
 }
 .item{
   display: inline-block;
-  padding-left: 20px;
+  padding: 1px 16px 30px 10px;
   text-align: center;
 
 }
 .item a{
   display: block;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px -6px 0px;
+}
+.item h3{
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px -2px;
+  color: #206988;
+  font-size:15px;
+  font-family:"Lucida Sans Unicode";
+}
+.item p{
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 4px;
+  color: #1f2528;
+  font-size:13px;
+  font-family:"Lucida Sans Unicode";
 }
 .item img{
-  margin-top: 5px;
+  margin: 5px 0px 0px -3px;
+  padding: 0px 0px 0px 0px;
+}
+p.price{
+  display: inline-block;
+  font-family:"Arial";
+  font-weight:bold;
+  font-style: italic;
+  color: #114165;
+  font-size:16px;
+  margin: 4px 0px 0px 6px;
+  padding: 0px 0px 0px 0px;
+}
+.item span{
+  font-family:"Arial";
+  font-weight: bold;
+  font-style: italic;
+  color: #114165;
+  font-size:12px;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
 }
 .item-photo{
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
   width: 136px;
   height: 127px;
   -webkit-border-radius: 7px;
@@ -452,7 +645,6 @@ form.search-disk{
   border-radius: 7px;
   background-color: #fff;
   border: solid 1px #a4aeb1;
-  text-align: center;
 }
 
 .sidebar-right{
@@ -466,11 +658,43 @@ form.search-disk{
 /*-------------------------
     #SECTION-FOOTER
 --------------------------*/
+figure{
+  margin: 8px 0px 22px 118px;
+  padding: 0px 0px 0px 0px;
+}
+
 footer{
   height: 100px;
   background-color: #213a4d;
+  text-align: center;
+
+}
+footer ul{
+  margin: 0px 0px 0px 298px;
+  padding: 12px 0px 0px 0px;
+
 }
 
 footer li{
   float: left;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  border-right: 1px solid  #bec6c9;
+}
+footer li:last-child{
+  border-right: none;
+}
+
+footer li a{
+  display: block;
+  color: #bec6c9;
+  font-size: 12px;
+  padding: 0px 13px;
+}
+
+footer p{
+  padding: 16px 0px 0px 0px;
+  color: #7f4740;
+  text-align: center;
+  font-size: 10px;
 }
