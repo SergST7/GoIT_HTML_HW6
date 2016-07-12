@@ -23,8 +23,8 @@ a {
 
 .wrapper {
   width: 912px;
-  margin: 0 auto;
   padding: 17px 44px 0;
+  margin: 0 auto;
 }
 
 .clearfix:after {
@@ -48,13 +48,13 @@ select {
 
 .phone {
   /*display: inline-block;*/
-  background: url(../img/ico-phone.png) no-repeat 8px 9px;
-  font-size: 17px;
-  color: #5e696d;
-  padding: 12px 14px 0px 33px;
-  letter-spacing: 1px;
   float: left;
   height: 19px;
+  padding: 12px 14px 0px 33px;
+  background: url(../img/ico-phone.png) no-repeat 8px 9px;
+  color: #5e696d;
+  font-size: 17px;
+  letter-spacing: 1px;
   /*line-height: 26px;*/
 }
 
@@ -63,7 +63,6 @@ select {
   width: 495px;
   height: 26px;
   margin: 4px 0px 0px 0px;
-  font-size: 11px;
   -webkit-border-radius: 4px/3px;
   -moz-border-radius: 4px/3px;
   border-radius: 4px/3px;
@@ -76,6 +75,7 @@ select {
   background-image: -o-linear-gradient(top, #206988, #114165 59%, #0c3256);
   background-image: -ms-linear-gradient(top, #206988, #114165 59%, #0c3256);
   background-image: linear-gradient(to bottom, #206988, #114165 59%, #0c3256);
+  font-size: 11px;
 }
 
 .login img {
@@ -84,22 +84,22 @@ select {
 }
 
 .login-form {
-  font-family: "Lucida Sans Unicode";
   float: left;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding: 4px 0px 0px 6px;
+  font-family: "Lucida Sans Unicode", Arial, Sans-Serif;
 
 }
 
 .login-form [type="text"], .login-form [type="password"] {
   width: 103px;
   height: 16px;
+  padding: 0 5px;
   border: 0;
   background-color: #fff;
   color: #97a2a6;
-  padding: 0 5px;
   font-size: 11px;
 }
 
@@ -109,69 +109,69 @@ select {
 }
 
 .login-form [type="submit"] {
-  background: none;
   border: 0;
-  cursor: pointer;
+  padding: 3px 0 0 5px;
+  background: none;
   color: #fff;
   font-size: 11px;
-  padding: 3px 0 0 5px;
+  cursor: pointer;
 }
 
 .login-separate {
   display: inline-block;
-  color: #fff;
   padding: 0px 0 0 0px;
+  color: #fff;
 }
 
 .registration {
-  text-decoration: none;
   color: #fff;
   font-size: 11px;
+  text-decoration: none;
 }
 
 .forgot-pass {
+  padding: 0px 0 0 14px;
   color: #bfbfbf;
   text-decoration: underline;
-  padding: 0px 0 0 14px;
 }
 
 .header-links {
-  width: 77px;
-  height: 22px;
+  position: relative;
   float: right;
-  margin: 5px 8px 0 0px;
-  padding: 0px 0px 0 7px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  width: 77px;
+  height: 22px;
+  padding: 0px 0px 0 7px;
   border: 1px solid #c1c8cb;
   border-radius: 20px;
-  position: relative;
+  margin: 5px 8px 0 0px;
   box-shadow: -3px -2px 6px -5px rgba(0, 0, 0, 0.52),
   3px 3px 8px -6px rgba(0, 0, 0, 0.54);
 }
 
 .header-links a {
-  line-height: 18px;
   padding: 0px 5px 0 0;
+  line-height: 18px;
 }
 
 .logo-image {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  margin-top: 8px;
-  margin-bottom: 6px;
   width: 910px;
   height: 237px;
   padding: 80px 0 0 30px;
+  margin-top: 8px;
+  margin-bottom: 6px;
   background: url(../img/bg-header.jpg) no-repeat center;
 }
 
 .logo-image a {
-  height: 30px;
-  width: 100px;
   display: block;
+  width: 100px;
+  height: 30px;
   padding: 20px 30px;
 }
 
@@ -180,11 +180,11 @@ select {
 --------------------------*/
 
 nav {
-  width: 910px;
-  height: 32px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  width: 910px;
+  height: 32px;
   padding: 3px 0px 0px 127px;
   -webkit-border-radius: 5px/3px 3px 2px 2px;
   -moz-border-radius: 5px/3px 3px 2px 2px;
@@ -212,12 +212,12 @@ nav {
 
 .head-menu li a {
   display: block;
+  height: 26px;
   color: #b1bcc0;
   font-size: 14px;
   line-height: 26px;
   text-transform: uppercase;
   text-align: center;
-  height: 26px;
   -webkit-border-radius: 12px/13px;
   -moz-border-radius: 12px/13px;
   border-radius: 12px/13px;
@@ -253,10 +253,10 @@ nav {
 }
 
 .basket {
+  float: right;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  float: right;
   padding-left: 27px;
   margin-top: 4px;
   background: url("../img/basket.png") no-repeat;
@@ -264,18 +264,18 @@ nav {
 
 .basket-string {
   display: inline-block;
-  font-size: 12px;
-  color: #8a9296;
   padding: 0px 0px 0px 0px;
   margin: 0px 8px 0px 0px;
+  font-size: 12px;
+  color: #8a9296;
 }
 
 .basket-num {
   display: inline-block;
-  font-size: 12px;
-  color: #0d5a8f;
   padding: 0px 0px 0px 0px;
   margin: 0px 10px 0px 0px;
+  font-size: 12px;
+  color: #0d5a8f;
 }
 
 .tovar {
@@ -313,13 +313,13 @@ form.search-car {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  padding: 0 0px 0 17px;
-  margin: 4px 10px 0px 5px;
   width: 415px;
   height: 133px;
+  padding: 0 0px 0 17px;
   -webkit-border-radius: 18px 17px 17px 18px/17px;
   -moz-border-radius: 18px 17px 17px 18px/17px;
   border-radius: 18px 17px 17px 18px/17px;
+  margin: 4px 10px 0px 5px;
   background-color: #fff;
   -webkit-box-shadow: 3px 4px 5px rgba(104, 104, 104, .75);
   -moz-box-shadow: 3px 4px 5px rgba(104, 104, 104, .75);
@@ -331,8 +331,8 @@ form.search-car {
   /*position: absolute;*/
   /*top:0px;*/
   /*left:0px;*/
-  text-align: center;
   font-family: "Arial Black";
+  text-align: center;
 }
 
 .search-car legend {
@@ -377,13 +377,13 @@ fieldset div {
 
 .search-btn {
   float: right;
+  padding-left: 120px;
   border: 0;
+  background: none;
   color: #154467;
   font-size: 14px;
   font-style: italic;
   text-decoration: underline;
-  background: none;
-  padding-left: 120px;
 }
 
 /*--------search by tyre----------*/
@@ -396,15 +396,15 @@ form.search-tire {
   width: 194px;
   height: 135px;
   padding: 0 15px;
-  margin: 0px 5px 0px 0px;;
+  border: solid 1px #9c9c9d;
   -webkit-border-radius: 17px/19px;
   -moz-border-radius: 17px/19px;
   border-radius: 17px/19px;
+  margin: 0px 5px 0px 0px;;
   background-color: #fff;
   -webkit-box-shadow: 3px 4px 5px rgba(150, 150, 150, .75);
   -moz-box-shadow: 3px 4px 5px rgba(150, 150, 150, .75);
   box-shadow: 3px 4px 5px rgba(150, 150, 150, .75);
-  border: solid 1px #9c9c9d;
 }
 
 .search-tire p {
@@ -457,7 +457,7 @@ form.search-disk {
   width: 268px;
   height: 134px;
   padding: 0 15px 0 10px;
-  margin: 0 0px 0 0px;
+  border: solid 1px #9c9c9d;
   -webkit-border-radius: 14px/18px 18px 17px 17px;
   -moz-border-radius: 14px/18px 18px 17px 17px;
   border-radius: 14px/18px 18px 17px 17px;
@@ -465,7 +465,7 @@ form.search-disk {
   -webkit-box-shadow: 3px 4px 5px rgba(150, 150, 150, .75);
   -moz-box-shadow: 3px 4px 5px rgba(150, 150, 150, .75);
   box-shadow: 3px 4px 5px rgba(150, 150, 150, .75);
-  border: solid 1px #9c9c9d;
+  margin: 0 0px 0 0px;
 }
 
 .search-disk p {
@@ -479,9 +479,9 @@ form.search-disk {
 .sidebar-left,
 .sidebar-right {
   display: inline-block;
-  vertical-align: top;
   color: #114165;
   font-family: "Lucida Sans Unicode";
+  vertical-align: top;
 }
 
 .sidebar-left h3,
@@ -513,12 +513,11 @@ form.search-disk {
 
 .sidebar-left h4,
 .sidebar-right h4 {
-  width: 150px;
-  height: 28px;
-  line-height: 28px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  width: 150px;
+  height: 28px;
   padding: 0px 0px 0px 29px;
   margin: 0px 0px 6px 2px;
   -webkit-border-radius: 11px/13px;
@@ -528,6 +527,7 @@ form.search-disk {
   border: solid 1px #79878d;
   text-transform: uppercase;
   font-size: 14px;
+  line-height: 28px;
 }
 
 .sidebar-right h4 {
@@ -538,11 +538,11 @@ form.search-disk {
 
 .sidebar-left a {
   display: block;
+  padding: 0px 0px 0px 18px;
+  margin: 0px 0px 13px 30px;
   background: url(../img/ico-list.png) no-repeat 6px 1px;
   font-size: 13px;
   color: #465961;
-  padding: 0px 0px 0px 18px;
-  margin: 0px 0px 13px 30px;
 }
 
 .left-disks {
@@ -562,9 +562,9 @@ form.search-disk {
 }
 
 .sidebar-right label input[type='checkbox'] {
-  margin: 0px 0px 0px 0px;
   width: 8px;
   height: 8px;
+  margin: 0px 0px 0px 0px;
   background-color: #fff;
   -webkit-box-shadow: inset 1px 1px 1px rgba(0, 0, 0, .75);
   -moz-box-shadow: inset 1px 1px 1px rgba(0, 0, 0, .75);
@@ -573,23 +573,23 @@ form.search-disk {
 }
 
 .sidebar-right label span {
-  margin: 0px 0px 0px 0px;
   padding: 0px 0px 0px 11px;
+  margin: 0px 0px 0px 0px;
 }
 
 .sidebar-right-btn {
   display: inline-block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
   width: 82px;
   height: 24px;
   margin: 8px 0px 0px 30px;
   padding: 0px 0px 0px 13px;
   color: #e5e9ea;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  line-height: 23px;
   font-family: "Arial Regular";
   font-size: 11px;
+  line-height: 23px;
   text-transform: uppercase;
   -webkit-border-radius: 10px/11px;
   -moz-border-radius: 10px/11px;
@@ -608,11 +608,11 @@ form.search-disk {
 
 .galery {
   display: inline-block;
-  width: 526px;
-  height: 627px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  width: 526px;
+  height: 627px;
   padding: 14px 0 0 14px;
   margin: 0px 0px 30px 0px;
   -webkit-border-radius: 3px/2px 2px 3px 3px;
@@ -643,8 +643,8 @@ form.search-disk {
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px -2px;
   color: #206988;
-  font-size: 15px;
   font-family: "Lucida Sans Unicode";
+  font-size: 15px;
 }
 
 .item p {
@@ -656,41 +656,41 @@ form.search-disk {
 }
 
 .item img {
-  margin: 5px 0px 0px -3px;
   padding: 0px 0px 0px 0px;
+  margin: 5px 0px 0px -3px;
 }
 
 p.price {
   display: inline-block;
+  padding: 0px 0px 0px 0px;
+  margin: 4px 0px 0px 6px;
+  color: #114165;
   font-family: "Arial";
+  font-size: 16px;
   font-weight: bold;
   font-style: italic;
-  color: #114165;
-  font-size: 16px;
-  margin: 4px 0px 0px 6px;
-  padding: 0px 0px 0px 0px;
 }
 
 .item span {
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  color: #114165;
   font-family: "Arial";
+  font-size: 12px;
   font-weight: bold;
   font-style: italic;
-  color: #114165;
-  font-size: 12px;
-  margin: 0px 0px 0px 0px;
-  padding: 0px 0px 0px 0px;
 }
 
 .item-photo {
-  padding: 0px 0px 0px 0px;
-  margin: 0px 0px 0px 0px;
   width: 136px;
   height: 127px;
+  padding: 0px 0px 0px 0px;
+  border: solid 1px #a4aeb1;
+  margin: 0px 0px 0px 0px;
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
   border-radius: 7px;
   background-color: #fff;
-  border: solid 1px #a4aeb1;
 }
 
 .elem2 {
@@ -746,8 +746,8 @@ p.price {
     #SECTION-FOOTER
 --------------------------*/
 figure {
-  margin: 8px 0px 22px 118px;
   padding: 0px 0px 0px 0px;
+  margin: 8px 0px 22px 118px;
 }
 
 footer {
@@ -758,16 +758,16 @@ footer {
 }
 
 footer ul {
-  margin: 0px 0px 0px 298px;
   padding: 12px 0px 0px 0px;
+  margin: 0px 0px 0px 298px;
 
 }
 
 footer li {
   float: left;
-  margin: 0px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
   border-right: 1px solid #bec6c9;
+  margin: 0px 0px 0px 0px;
 }
 
 footer li:last-child {
@@ -776,9 +776,9 @@ footer li:last-child {
 
 footer li a {
   display: block;
+  padding: 0px 13px;
   color: #bec6c9;
   font-size: 12px;
-  padding: 0px 13px;
 }
 
 footer p {
