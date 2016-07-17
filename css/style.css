@@ -558,13 +558,12 @@ form.search-disk {
 }
 
 .sidebar-right .disk {
-  margin: 15px 0px 11px 20px;
+  margin: 2px 0px 11px 20px;
 }
 
 .sidebar-right label input[type='checkbox'] {
   width: 8px;
   height: 8px;
-  margin: 0px 0px 0px 0px;
   background-color: #fff;
   -webkit-box-shadow: inset 1px 1px 1px rgba(0, 0, 0, .75);
   -moz-box-shadow: inset 1px 1px 1px rgba(0, 0, 0, .75);
@@ -573,8 +572,8 @@ form.search-disk {
 }
 
 .sidebar-right label span {
-  padding: 0px 0px 0px 11px;
-  margin: 0px 0px 0px 0px;
+  padding: 0 0 0 11px;
+
 }
 
 .sidebar-right-btn {
@@ -584,8 +583,8 @@ form.search-disk {
   box-sizing: border-box;
   width: 82px;
   height: 24px;
-  margin: 8px 0px 0px 30px;
-  padding: 0px 0px 0px 13px;
+  margin: 8px 0 0 30px;
+  padding: 0 0 0 13px;
   color: #e5e9ea;
   font-family: "Arial Regular";
   font-size: 11px;
@@ -726,11 +725,11 @@ p.price {
 }
 
 .elem12 {
-  margin: 2px 0px 0px 0px;
+  margin: 2px 0px 0 0px;
 }
 
 .elem12 h3 {
-  margin: 0px 0px 0px 1px;
+  margin: 0 0 0 1px;
 }
 
 .sidebar-right {
@@ -765,9 +764,7 @@ footer ul {
 
 footer li {
   float: left;
-  padding: 0px 0px 0px 0px;
   border-right: 1px solid #bec6c9;
-  margin: 0px 0px 0px 0px;
 }
 
 footer li:last-child {
@@ -776,13 +773,13 @@ footer li:last-child {
 
 footer li a {
   display: block;
-  padding: 0px 13px;
+  padding: 0 13px;
   color: #bec6c9;
   font-size: 12px;
 }
 
 footer p {
-  padding: 16px 0px 0px 0px;
+  padding: 16px 0 0 0;
   color: #7f4740;
   text-align: center;
   font-size: 10px;
