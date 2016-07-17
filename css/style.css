@@ -403,7 +403,7 @@ form.search-tire {
   box-sizing: border-box;
   width: 194px;
   height: 135px;
-  padding: 0 15px;
+  padding: 1px 9px;
   border: solid 1px #9c9c9d;
   -webkit-border-radius: 17px/19px;
   -moz-border-radius: 17px/19px;
@@ -464,7 +464,7 @@ form.search-disk {
   box-sizing: border-box;
   width: 268px;
   height: 134px;
-  padding: 0 15px 0 10px;
+  padding: 4px 15px 0 10px;
   border: solid 1px #9c9c9d;
   -webkit-border-radius: 14px/18px 18px 17px 17px;
   -moz-border-radius: 14px/18px 18px 17px 17px;
@@ -566,7 +566,7 @@ form.search-disk {
 }
 
 .sidebar-right .disk {
-  margin: 15px 0px 11px 20px;
+  margin: 2px 0px 11px 20px;
 }
 
 .sidebar-right label input[type='checkbox'] {
