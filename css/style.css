@@ -489,6 +489,13 @@ form.search-disk {
   font-family: "Arial Black";
 }
 
+.search-disk > .set-right {
+  vertical-align: top;
+}
+.search-disk > .set-left {
+  border-right:1px solid black;
+}
+
 /*-------------------------
     #SECTION-MAIN
 --------------------------*/
