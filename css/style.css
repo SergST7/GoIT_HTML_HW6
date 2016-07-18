@@ -263,22 +263,22 @@ nav {
 
 .basket-string {
   display: inline-block;
-  padding: 0px 0px 0px 0px;
-  margin: 0px 8px 0px 0px;
+
+  margin: 0 8px 0 0;
   font-size: 12px;
   color: #8a9296;
 }
 
 .basket-num {
   display: inline-block;
-  padding: 0px 0px 0px 0px;
-  margin: 0px 10px 0px 0px;
+
+  margin: 0 10px 0 0;
   font-size: 12px;
   color: #0d5a8f;
 }
 
 .tovar {
-  margin: 0px -4px 0px 0px;
+  margin: 0 -4px 0 0;
 }
 
 /*-------------------------
@@ -314,11 +314,11 @@ form.search-car {
   box-sizing: border-box;
   width: 415px;
   height: 133px;
-  padding: 0 0px 0 17px;
+  padding: 0 0 0 17px;
   -webkit-border-radius: 18px 17px 17px 18px/17px;
   -moz-border-radius: 18px 17px 17px 18px/17px;
   border-radius: 18px 17px 17px 18px/17px;
-  margin: 4px 10px 0px 5px;
+  margin: 4px 10px 0 5px;
   background-color: #fff;
   -webkit-box-shadow: 3px 4px 5px rgba(104, 104, 104, .75);
   -moz-box-shadow: 3px 4px 5px rgba(104, 104, 104, .75);
@@ -355,7 +355,7 @@ form.search-car {
 }
 
 .search-car .set-right legend {
-  padding: 0px 0 7px 137px;
+  padding: 0 0 7px 137px;
 }
 
 .search-car .set-left label,
@@ -371,6 +371,10 @@ form.search-car {
   width: 101px;
 }
 
+.search-car > .set-right div {
+  padding: 0 0 0 3px;
+}
+
 select[name="year"] {
   width: 58px;
 }
@@ -379,9 +383,10 @@ fieldset div {
   margin-top: 3px;
 }
 
-.btn{
+.btn {
   text-align: right;
 }
+
 .search-btn {
   /*float: right;*/
   /*padding-left: 120px;*/
@@ -408,7 +413,7 @@ form.search-tire {
   -webkit-border-radius: 17px/19px;
   -moz-border-radius: 17px/19px;
   border-radius: 17px/19px;
-  margin: 0px 5px 0px 0px;;
+  margin: 0 5px 0 0;;
   background-color: #fff;
   -webkit-box-shadow: 3px 4px 5px rgba(150, 150, 150, .75);
   -moz-box-shadow: 3px 4px 5px rgba(150, 150, 150, .75);
@@ -421,6 +426,11 @@ form.search-tire {
 
 .search-tire fieldset {
   /*float: left;*/
+}
+
+.search-tire fieldset div {
+  /*margin:0 0 0 0;*/
+  /*padding:0 0 0 0;*/
 }
 
 .search-tire select {
@@ -473,7 +483,6 @@ form.search-disk {
   -webkit-box-shadow: 3px 4px 5px rgba(150, 150, 150, .75);
   -moz-box-shadow: 3px 4px 5px rgba(150, 150, 150, .75);
   box-shadow: 3px 4px 5px rgba(150, 150, 150, .75);
-  margin: 0 0px 0 0px;
 }
 
 .search-disk p {
@@ -499,12 +508,12 @@ form.search-disk {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  padding: 7px 0px 0px 26px;
-  margin: 3px 5px 13px 0px;
+  padding: 7px 0 0 26px;
+  margin: 3px 5px 13px 0;
   -webkit-border-radius: 12px/12px 12px 13px 13px;
   -moz-border-radius: 12px/12px 12px 13px 13px;
   border-radius: 12px/12px 12px 13px 13px;
-  background: #fff url(../img/ico-menu.png) 2px 0px no-repeat;
+  background: #fff url(../img/ico-menu.png) 2px 0 no-repeat;
   -webkit-box-shadow: 2px 3px 3px rgba(150, 150, 150, .75);
   -moz-box-shadow: 2px 3px 3px rgba(150, 150, 150, .75);
   box-shadow: 2px 3px 3px rgba(150, 150, 150, .75);
@@ -514,8 +523,8 @@ form.search-disk {
 }
 
 .sidebar-right h3 {
-  padding: 5px 0px 0px 28px;
-  margin: 1px 0px 14px 7px;
+  padding: 5px 0 0 28px;
+  margin: 1px 0 14px 7px;
   font-size: 14px;
 }
 
@@ -526,8 +535,8 @@ form.search-disk {
   box-sizing: border-box;
   width: 150px;
   height: 28px;
-  padding: 0px 0px 0px 29px;
-  margin: 0px 0px 6px 2px;
+  padding: 0 0 0 29px;
+  margin: 0 0 6px 2px;
   -webkit-border-radius: 11px/13px;
   -moz-border-radius: 11px/13px;
   border-radius: 11px/13px;
@@ -539,40 +548,39 @@ form.search-disk {
 }
 
 .sidebar-right h4 {
-  padding: 0px 0px 0px 29px;
-  margin: 0px 0px 5px 21px;
+  padding: 0 0 0 29px;
+  margin: 0 0 5px 21px;
   width: 136px;
 }
 
 .sidebar-left a {
   display: block;
-  padding: 0px 0px 0px 18px;
-  margin: 0px 0px 13px 30px;
+  padding: 0 0 0 18px;
+  margin: 0 0 13px 30px;
   background: url(../img/ico-list.png) no-repeat 6px 1px;
   font-size: 13px;
   color: #465961;
 }
 
 .left-disks {
-  margin: -10px 0px 0px 0px;
+  margin: -10px 0 0 0;
 }
 
 .left-bolts {
-  margin: -11px 0px 0px 0px;
+  margin: -11px 0 0 0;
 }
 
 .sidebar-right label {
-  margin: 9px 0px 13px 33px;
+  margin: 7px 0 11px 26px;
 }
 
 .sidebar-right .disk {
-  margin: 2px 0px 11px 20px;
+  margin: 5px 0 10px 20px;
 }
 
 .sidebar-right label input[type='checkbox'] {
   width: 8px;
   height: 8px;
-  margin: 0px 0px 0px 0px;
   background-color: #fff;
   -webkit-box-shadow: inset 1px 1px 1px rgba(0, 0, 0, .75);
   -moz-box-shadow: inset 1px 1px 1px rgba(0, 0, 0, .75);
@@ -581,8 +589,7 @@ form.search-disk {
 }
 
 .sidebar-right label span {
-  padding: 0px 0px 0px 11px;
-  margin: 0px 0px 0px 0px;
+  padding: 0 0 0 11px;
 }
 
 .sidebar-right-btn {
@@ -592,8 +599,8 @@ form.search-disk {
   box-sizing: border-box;
   width: 82px;
   height: 24px;
-  margin: 8px 0px 0px 30px;
-  padding: 0px 0px 0px 13px;
+  margin: 8px 0 0 30px;
+  padding: 0 0 0 13px;
   color: #e5e9ea;
   font-family: "Arial Regular";
   font-size: 11px;
@@ -604,9 +611,9 @@ form.search-disk {
   border-radius: 10px/11px;
   background-color: #000;
   border: solid 1px #a7abae;
-  -webkit-box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.5);
-  box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 2px 3px 3px 0 rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 2px 3px 3px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 3px 3px 0 rgba(0, 0, 0, 0.5);
   background-image: -webkit-linear-gradient(top, #206988, #114165 59%, #0c3256);
   background-image: -moz-linear-gradient(top, #206988, #114165 59%, #0c3256);
   background-image: -o-linear-gradient(top, #206988, #114165 59%, #0c3256);
@@ -622,7 +629,7 @@ form.search-disk {
   width: 526px;
   height: 627px;
   padding: 14px 0 0 14px;
-  margin: 0px 0px 30px 0px;
+  margin: 0 0 30px 0;
   -webkit-border-radius: 3px/2px 2px 3px 3px;
   -moz-border-radius: 3px/2px 2px 3px 3px;
   border-radius: 3px/2px 2px 3px 3px;
@@ -638,52 +645,45 @@ form.search-disk {
   display: inline-block;
   padding: 1px 16px 30px 10px;
   text-align: center;
-
 }
 
 .item a {
   display: block;
-  padding: 0px 0px 0px 0px;
-  margin: 0px 0px -6px 0px;
+  margin: 0 0 -6px 0;
 }
 
 .item h3 {
-  padding: 0px 0px 0px 0px;
-  margin: 0px 0px 0px -2px;
+
+  margin: 0 0 0 -2px;
   color: #206988;
   font-family: "Lucida Sans Unicode";
   font-size: 15px;
 }
 
 .item p {
-  padding: 0px 0px 0px 0px;
-  margin: 0px 0px 0px 4px;
+  margin: 0 0 0 4px;
   color: #1f2528;
   font-size: 13px;
   font-family: "Lucida Sans Unicode";
 }
 
-.item img {
-  padding: 0px 0px 0px 0px;
-  margin: 5px 0px 0px -3px;
+.item img {;
+  margin: 5px 0 0 -3px;
 }
 
 p.price {
   display: inline-block;
-  padding: 0px 0px 0px 0px;
-  margin: 4px 0px 0px 6px;
+  margin: 4px 0 0 6px;
   color: #114165;
-  font-family: "Arial";
+  font-family: Arial;
   font-size: 16px;
   font-weight: bold;
   font-style: italic;
 }
 
 .item span {
-  padding: 0px 0px 0px 0px;
-  margin: 0px 0px 0px 0px;
   color: #114165;
-  font-family: "Arial";
+  font-family: Arial;
   font-size: 12px;
   font-weight: bold;
   font-style: italic;
@@ -692,9 +692,7 @@ p.price {
 .item-photo {
   width: 136px;
   height: 127px;
-  padding: 0px 0px 0px 0px;
   border: solid 1px #a4aeb1;
-  margin: 0px 0px 0px 0px;
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
   border-radius: 7px;
@@ -702,11 +700,11 @@ p.price {
 }
 
 .elem2 {
-  margin: 0px -1px 0px 0px;
+  margin: 0 -1px 0 0;
 }
 
 .elem2 h3 {
-  margin: 0px -1px 0px 0px;
+  margin: 0 -1px 0 0;
 }
 
 .elem3 p {
@@ -714,31 +712,31 @@ p.price {
 }
 
 .elem3 h3 {
-  margin: 0px 0px 0px 0px;
+
 }
 
 .elem5 {
-  margin: 0px 0px 0px -1px;
+  margin: 0 0 0 -1px;
 }
 
 .elem5 h3 {
-  margin: 0px 0px 0px 1px;
+  margin: 0 0 0 1px;
 }
 
 .elem6 {
-  margin: 0px 0px 0px -1px;
+  margin: 0 0 0 -1px;
 }
 
 .elem6 h3 {
-  margin: 0px 0px 0px 3px;
+  margin: 0 0 0 3px;
 }
 
 .elem12 {
-  margin: 2px 0px 0px 0px;
+  margin: 2px 0 0 0;
 }
 
 .elem12 h3 {
-  margin: 0px 0px 0px 1px;
+  margin: 0 0 0 1px;
 }
 
 .sidebar-right {
@@ -754,8 +752,7 @@ p.price {
     #SECTION-FOOTER
 --------------------------*/
 figure {
-  padding: 0px 0px 0px 0px;
-  margin: 8px 0px 22px 118px;
+  margin: 8px 0 22px 118px;
 }
 
 footer {
@@ -766,16 +763,13 @@ footer {
 }
 
 footer ul {
-  padding: 12px 0px 0px 0px;
-  margin: 0px 0px 0px 298px;
-
+  padding: 12px 0 0 0;
+  margin: 0 0 0 298px;
 }
 
 footer li {
   float: left;
-  padding: 0px 0px 0px 0px;
   border-right: 1px solid #bec6c9;
-  margin: 0px 0px 0px 0px;
 }
 
 footer li:last-child {
@@ -784,13 +778,13 @@ footer li:last-child {
 
 footer li a {
   display: block;
-  padding: 0px 13px;
+  padding: 0 13px;
   color: #bec6c9;
   font-size: 12px;
 }
 
 footer p {
-  padding: 16px 0px 0px 0px;
+  padding: 16px 0 0 0;
   color: #7f4740;
   text-align: center;
   font-size: 10px;
